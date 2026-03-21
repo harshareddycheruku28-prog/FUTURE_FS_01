@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm install --prefix portfolio && npm run build --prefix portfolio",
+  "outputDirectory": "portfolio/build",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
