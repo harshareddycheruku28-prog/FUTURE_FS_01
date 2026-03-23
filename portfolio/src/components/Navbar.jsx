@@ -13,6 +13,7 @@ import {
 const navLinks = [
   { to: "home", label: "Home" },
   { to: "about", label: "About" },
+  { to: "education", label: "Education" },
   { to: "skills", label: "Skills" },
   { to: "projects", label: "Projects" },
   { to: "experience", label: "Experience" },
